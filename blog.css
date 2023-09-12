@@ -1,0 +1,80 @@
+.insight{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+hr{
+    max-width: 90%;
+}
+
+
+.investors{
+    display: flex;
+    gap: 20%;
+}
+
+.blog{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    line-height: 10px !important;
+}
+.trending button{
+    border-radius:10px ;
+    border-color: grey !important;
+    background-color: white;
+    margin-left: 10px;
+}
+.tools{
+    display: flex;
+    gap: 10%;
+}
+.pic{
+    width: 150%;
+    height: 200px;
+    margin-top: 5%;
+}
+.a{
+    margin-top: 25%;
+}
+.mail{
+    display: flex;
+    gap: 2%;
+  
+}
+
+@media (max-width: 944px), (max-width: 320px) {
+    .main-footer .row > div[class^="col-md-"], .main-footer .row > div[class*=" col-md-"] {
+      margin-bottom: 30px;
+    }
+    
+    .main-footer .widget-inner {
+      text-align: center;
+    }
+    
+    .main-footer .widget-inner img {
+      margin: 0 auto;
+      display: block;
+    }
+    
+    .main-footer .textwidget.custom-html-widget ul {
+      padding-left: 0;
+    }
+    
+    .main-footer .textwidget.custom-html-widget ul li {
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
+    
+    .main-footer .textwidget.custom-html-widget input[type="text"],
+    .main-footer .textwidget.custom-html-widget button {
+      max-width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+
+
+    
+  

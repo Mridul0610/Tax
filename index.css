@@ -1,0 +1,166 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.nav{
+  z-index: 1000;
+}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #3B3736;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  /* opacity: 0.8; */
+  /* position: fixed; */
+  margin-right: 50px;
+  width: 200px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position:absolute;
+  border: 3px solid white;
+  margin-top: 40px;
+  margin-left: 50%;
+  padding: 0%;
+  z-index: 1000;
+
+}
+
+/* Add styles to the form container */
+.form-container {
+ max-width: 300px;
+  padding: 25px;
+  /* padding-top: 0px; */
+  /* height: 600px; */
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.contentt{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.service-box {
+  height: 400px;
+}
+
+.a{
+  color: #E35F21 !important;
+}
+
+@media (max-width: 320px) {
+  .wpb_column {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .content-box{
+    width: 100% !important;
+  }
+  .wpb_column.vc_col-sm-3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contentt{
+    width: 100%;
+  }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .vc_empty_space {
+    display: none;
+  }
+  .wpb_column.vc_col-sm-3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+    .main-footer .row > div[class^="col-md-"], .main-footer .row > div[class*=" col-md-"] {
+      margin-bottom: 30px;
+    }
+    
+    .main-footer .widget-inner {
+      text-align: center;
+    }
+    
+    .main-footer .widget-inner img {
+      margin: 0 auto;
+      display: block;
+    }
+    
+    .main-footer .textwidget.custom-html-widget ul {
+      padding-left: 0;
+    }
+    
+    .main-footer .textwidget.custom-html-widget ul li {
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
+    
+    .main-footer .textwidget.custom-html-widget input[type="text"],
+    .main-footer .textwidget.custom-html-widget button {
+      max-width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+
+  /* @media screen and (max-width: 450px) {
+    .wpb_column.vc_col-sm-3 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .vc_empty_space {
+      display: none;
+    }
+  }
+   */

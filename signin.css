@@ -1,0 +1,161 @@
+* {box-sizing: border-box;
+   
+    font-family: 'Inter';
+    }
+    
+    /* Full-width input fields */
+      input[type=text], input[type=password],input[type=number] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+     
+    }
+    h1{
+        color: white;
+        text-shadow: 20px 20px 10px rgba(0, 0, 0, 0.60);
+    }
+    h2{
+        color: #090706;
+        font-size: 35px; 
+        margin-top: 5%;
+        margin-left: -200px;
+        font-weight: 900 !important;
+    }
+  
+ 
+    form{
+        width: 50%;
+        height: 700px;
+        background: conic-gradient(from 216.43deg at 118.3% 75.2%, #090706 0deg, #EC611F 93.03deg, rgba(75, 57, 48, 0) 360deg, rgba(75, 57, 48, 0) 360deg, #090706 360deg);
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    input{
+      border-radius: 20px;
+    
+    }
+    .for{
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+    
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    /* Set a style for all buttons */
+    button {
+        background: #3F3736;
+        border-radius: 20px;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background: #3F3736;
+      border-radius: 20px;
+    }
+    
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+      font-size: 20px;
+    }
+    
+ 
+    label{
+       float: left; ;
+    }
+    
+    /* Clear floats */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .signinbtn{
+      width: 50%;
+      font-size: 20px;
+    }
+    
+
+    /* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+
+form{
+  width: 100%;
+  margin: 0 auto;
+  height: 2000px;
+}
+  h2{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust the form width and margin */
+  form {
+      width: 90%;
+      margin: 0 auto;
+      height: 1000px;
+  }
+  h2{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Adjust the form width and margin */
+  form {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  /* Adjust the form width and margin */
+  form {
+      width: 90%;
+      margin: 0 auto;
+  }
+  h2{
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  /* Adjust the form width and margin */
+  form {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  h2{
+    margin-left: -50px;
+  }
+  button{
+    display: grid;
+    margin: 2px;
+  }
+}
